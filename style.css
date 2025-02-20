@@ -1,0 +1,19 @@
+/* Estilos personalizados (opcional) */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.container {
+    width: 90%; /* Ajusta el ancho del contenedor */
+    max-width: 960px; /* Ancho máximo */
+    margin-top: 2rem; /* Espacio superior */
+}
+h1{
+    margin-bottom: 2rem;
+}

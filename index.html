@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Diócesis y Parroquias</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="center-align">Registro de Horarios</h1>
+        <div class="row">
+            <form class="col s12" id="myForm">
+
+                <div class="input-field col s12">
+                    <select id="diocesis" name="diocesis" required>
+                        <option value="" disabled selected>Selecciona una Diócesis</option>
+                        </select>
+                    <label for="diocesis">Diócesis</label>
+                </div>
+
+                <div class="input-field col s12">
+                    <select id="parroquia" name="parroquia" required>
+                        <option value="" disabled selected>Selecciona una Parroquia</option>
+                        </select>
+                    <label for="parroquia">Parroquia</label>
+                </div>
+
+                <div class="input-field col s12 m6">
+                    <select id="horaViernes1" name="horaViernes1" required>
+                        <option value="" disabled selected>Selecciona Hora Viernes 01</option>
+                        </select>
+                    <label for="horaViernes1">Hora Viernes 01</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <select id="horaViernes2" name="horaViernes2" required>
+                        <option value="" disabled selected>Selecciona Hora Viernes 02</option>
+                        </select>
+                    <label for="horaViernes2">Hora Viernes 02</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <select id="horaSabado" name="horaSabado" required>
+                        <option value="" disabled selected>Selecciona Hora Sábado</option>
+                        </select>
+                    <label for="horaSabado">Hora Sábado</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <select id="horaDomingo" name="horaDomingo" required>
+                        <option value="" disabled selected>Selecciona Hora Domingo</option>
+                        </select>
+                    <label for="horaDomingo">Hora Domingo</label>
+                </div>
+
+                <div class="col s12 center-align">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
