@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- Obtener datos de Diócesis y Parroquias desde la WebApp ---
 
     // URL de tu WebApp (¡REEMPLAZA ESTO!).  Esta vez la usaremos para un GET.
-    const url = "URL_DE_TU_WEB_APP"; //  ¡¡¡ REEMPLAZA ESTO CON LA URL REAL !!!
+    const url = "https://script.google.com/macros/s/AKfycbyrETpCS5xhp28diUHwVR0LKmU9TLU6hdKu3WAXnMfMU8teLI--bFui7LR3c6WOCskr/exec"; //  ¡¡¡ REEMPLAZA ESTO CON LA URL REAL !!!
 
     fetch(url) // Por defecto, fetch hace una solicitud GET.
         .then(response => response.json())
